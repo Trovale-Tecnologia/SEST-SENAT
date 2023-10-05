@@ -1,5 +1,4 @@
-Passos em que o script se baseia:
-
+Passos originais em que o script se baseia:
 
 Arquivo CNPJ: Limpar coluna A da planilha CNPJ (CTRL + SHIFT + L)
 Arquivo AJUSTE_BASE: Limpar a planilha TODA (CTRL + SHIFT + T)
@@ -68,9 +67,9 @@ Matriz Estudo Mensal: Limpar a coluna A e B da aba BASE.Socios (CTRL + SHIFT + L
         ActiveWindow.SmallScroll ToRight:=-2
     End Sub
 
-- Clicar no Menu DADOS > Abrir o PowerQuery (Obter Dados)
+- Clicar no Menu DADOS > Obter Dados > Iniciar no Editor do PowerQuery
 
-- Selecionar arquivo excel e a planilha AJUSTE_BASE, Próximo
+- Selecionar arquivo excel > planilha AJUSTE_BASE > Próximo
 
 - Selecionar a Pasta de Trabalho: AJUSTE_BASE
 
@@ -84,20 +83,31 @@ Matriz Estudo Mensal: Limpar a coluna A e B da aba BASE.Socios (CTRL + SHIFT + L
 
 ====================
 
-- Copiar os CPFs da Base Ajustada (Arquivo > AJUSTE_BASE - COLUNA C) para o arquivo "2023 - Matriz Estudo Mensal" na planilha BASE.SOCIOS
-
+- Copiar os CPFs da Base Ajustada (Arquivo > AJUSTE_BASE - COLUNA C) para o arquivo "Matriz Estudo Mensal" na planilha BASE.SOCIOS
 
 - TR_USER 1
 - Clicar no campo TIPO DE CONSULTA
 - Aba DADOS - FILTRO
 - Filtrar na COLUNA D apenas PF
-- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "2023 - Matriz Estudo Mensal" na planilha BASE.PF
+- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "Matriz Estudo Mensal" na planilha BASE.PF
 
 - TR_USER 2
 - Clicar no campo TIPO DE CONSULTA
 - Aba DADOS - FILTRO
-- Filtrar na COLUNA D apenas PJ
-- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "2023 - Matriz Estudo Mensal" na planilha BASE.PF
+- Filtrar na COLUNA D apenas PF
+- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "Matriz Estudo Mensal" na planilha BASE.PF
+
+- TR_USER 3
+- Clicar no campo TIPO DE CONSULTA
+- Aba DADOS - FILTRO
+- Filtrar na COLUNA D apenas PF
+- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "Matriz Estudo Mensal" na planilha BASE.PF
+
+- TR_USER 4
+- Clicar no campo TIPO DE CONSULTA
+- Aba DADOS - FILTRO
+- Filtrar na COLUNA D apenas PF
+- Copiar o CPF de todos os registros da coluna A e colar como valores na planilha "Matriz Estudo Mensal" na planilha BASE.PF
 
 Substituir "." e "-" por VAZIO (CTRL + SHIFT + D)
 
