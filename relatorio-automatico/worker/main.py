@@ -206,7 +206,7 @@ for idx, arquivo_tr_user in enumerate(arquivos_tr_user, start=1):
 
     # Copiar os CPFs filtrados para a planilha BASE.PF na planilha Matriz Estudo Mensal
     sheet_base_pf = workbook_matriz_estudo['BASE.PF']
-    for cpf in cpf_values_filtered[0:]:  
+    for cpf in cpf_values_filtered[0:]:
         sheet_base_pf.append([cpf])
 
     # Salvar as mudanças no arquivo TR_USER atual
