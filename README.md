@@ -1,9 +1,9 @@
-Para executar o script Python que coordena o preenchimento de relatório mensal ao SEST SENAT é necessário seguir os seguintes passos com cuidado:
+Para executar o script Python que coordena o preenchimento de relatório mensal ao SEST SENAT é necessário seguir os seguintes passos:
 
 ATENÇÃO! 
 ESSA PARTE SÓ PRECISA SER EXECUTADA UMA ÚNICA VEZ PARA FINS DE CONFIGURAÇÃO DO AMBIENTE DE EXECUÇÃO DE SCRIPTS 
 
-========================================================================================================================
+===============================================================================
 
     1. Instalar Python 3.11 ou mais atualizado (https://www.python.org/downloads/);
         -> Para verificar se o python foi instalado corretamente execute o seguinte comando: python --version
@@ -27,7 +27,7 @@ ESSA PARTE SÓ PRECISA SER EXECUTADA UMA ÚNICA VEZ PARA FINS DE CONFIGURAÇÃO 
             P.S.: (dependendo da sua versão de python pode ser necessário utilizar o comando python3, python.exe ou python3.exe para executar o arquivo de script)
 
 
-========================================================================================================================
+=================================================================================
 
 Passos em que o script se baseia:
 
